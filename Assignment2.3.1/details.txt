@@ -1,0 +1,3 @@
+Name: Yebin Kim
+Age: 40
+Address: 1234 Main St, Evergreen, USA

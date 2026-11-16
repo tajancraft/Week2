@@ -1,0 +1,15 @@
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.AssemblyInfoInputs.cache
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.AssemblyInfo.cs
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.csproj.CoreCompileInputs.cache
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.sourcelink.json
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\bin\Debug\net10.0\Assignment2.3.2.exe
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\bin\Debug\net10.0\Assignment2.3.2.deps.json
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\bin\Debug\net10.0\Assignment2.3.2.runtimeconfig.json
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\bin\Debug\net10.0\Assignment2.3.2.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\bin\Debug\net10.0\Assignment2.3.2.pdb
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\refint\Assignment2.3.2.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.pdb
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\Assignment2.3.2.genruntimeconfig.cache
+C:\Users\YK\source\repos\MSSA Assignments\Week2\Assignment2.3.2\obj\Debug\net10.0\ref\Assignment2.3.2.dll

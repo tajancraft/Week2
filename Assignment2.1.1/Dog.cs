@@ -1,0 +1,6 @@
+public class Dog : Pet
+{
+    public Dog(string name, int age) : base(name, age)
+    {
+    }
+}

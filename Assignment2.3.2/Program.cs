@@ -4,6 +4,8 @@ Design a tip calculator : enter the bill total, tip % and display grand total af
 Use the format specifiers to display currency, % symbol.
 */
 
+using System.Globalization;
+
 int menuChoice;
 
 do
@@ -19,7 +21,7 @@ do
     {
         case 1:
             Console.WriteLine("Enter Bill Total:");
-            double billTotal = double.Parse(Console.ReadLine());
+            double billTotal = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException("No input was provided."));
             Console.WriteLine();
 
             Console.WriteLine("Enter Tip Percentage (e.g., 15 for 15%):");
@@ -28,9 +30,12 @@ do
 
             TipCalculator calculator = new TipCalculator(billTotal, tipPercentage);
             
-            Console.WriteLine($"Tip Amount: {calculator.CalculateTip():C}");
-            Console.WriteLine($"Grand Total: {calculator.CalculateGrandTotal():C}");
+            Console.WriteLine($"Tip Percentage: {tipPercentage}%");
+            Console.WriteLine($"Tip Amount: {calculator.CalculateTip().ToString("C2", CultureInfo.CreateSpecificCulture("en-US"))}");
+            Console.WriteLine($"Grand Total: {calculator.CalculateGrandTotal().ToString("C2", CultureInfo.CreateSpecificCulture("en-US"))}");
             Console.WriteLine();
+            Console.WriteLine("Press any key to return to the menu...");
+            Console.ReadLine(); 
             break;
 
         case 2:

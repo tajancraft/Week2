@@ -1,0 +1,15 @@
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\bin\Debug\net10.0\ChallengeProject1.exe
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\bin\Debug\net10.0\ChallengeProject1.deps.json
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\bin\Debug\net10.0\ChallengeProject1.runtimeconfig.json
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\bin\Debug\net10.0\ChallengeProject1.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\bin\Debug\net10.0\ChallengeProject1.pdb
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.AssemblyInfoInputs.cache
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.AssemblyInfo.cs
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.csproj.CoreCompileInputs.cache
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.sourcelink.json
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\refint\ChallengeProject1.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.pdb
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ChallengeProject1.genruntimeconfig.cache
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeProject1\obj\Debug\net10.0\ref\ChallengeProject1.dll

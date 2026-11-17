@@ -11,7 +11,7 @@ Take the input from user to select circle or square and display the calculated a
 */
 
 int menuChoice;
-
+ 
 do
 {
     Console.WriteLine("Select a shape to calculate area:");
@@ -24,25 +24,17 @@ do
     switch (menuChoice)
     {
         case 1:
-           
-            Console.WriteLine("Enter Circle Radius:");
-            double radius = double.Parse(Console.ReadLine());
-
             Circle myCircle = new();
-            myCircle.Radius = radius;
-            double circleArea = myCircle.CalculateArea();
-            Console.WriteLine($"Circle Area: {circleArea}");
+            Console.WriteLine("Enter Circle Radius:");
+            myCircle.Radius = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Circle Area: {myCircle.CalculateArea()}");
             break;
 
         case 2:
-           
-            Console.WriteLine("Enter Square Side Length:");
-            double sideLength = double.Parse(Console.ReadLine());
-
             Square mySquare = new();
-            mySquare.Side = sideLength;
-            double squareArea = mySquare.CalculateArea();
-            Console.WriteLine($"Square Area: {squareArea}");
+            Console.WriteLine("Enter Square Side Length:");
+            mySquare.Side = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Square Area: {mySquare.CalculateArea()}");
             break;
 
         case 3:
@@ -63,7 +55,7 @@ public abstract class Shape
 
     public virtual double CalculateArea()
     {
-        return 0;
+        return 0.0;
     }
 }
 

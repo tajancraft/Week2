@@ -14,7 +14,7 @@ Its very hot.
 
 
 Console.Write("Enter temperature in Fahrenheit: ");
-int temp = Convert.ToInt32(Console.ReadLine());
+int temp = int.Parse(Console.ReadLine());
 
     switch (temp)
     {

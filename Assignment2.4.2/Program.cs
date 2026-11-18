@@ -14,42 +14,23 @@ Expected Output :
 The 2nd Number is the greatest among three
 */
 
-Console.Write("Input the 1st number: ");
-int inputNumber1 = int.Parse(Console.ReadLine());
-Console.WriteLine();
 
-Console.Write("Input the 2nd number: ");
-int inputNumber2 = int.Parse(Console.ReadLine());
-Console.WriteLine();
+int[] myArray = new int[3];
+string [] rankingPlace = {"1st", "2nd", "3rd"};
 
-Console.Write("Input the 3rd number: ");
-int inputNumber3 = int.Parse(Console.ReadLine());
-Console.WriteLine();
-
-CompareNumberList compareNumberList = new CompareNumberList(inputNumber1, inputNumber2, inputNumber3);
-Console.WriteLine("The {0} Number is the greatest among three", compareNumberList.FindLargest());
-
-public class CompareNumberList
+for (int i = 0; i < 3; i++)
 {
-    public int number1 { get; set; }
-    public int number2 { get; set; }
-    public int number3 { get; set; }
-
-    public CompareNumberList(int inputNumber1, int inputNumber2, int inputNumber3)
-    {
-        number1 = inputNumber1;
-        number2 = inputNumber2;
-        number3 = inputNumber3;
-    }
-    public string FindLargest()
-    {
-        if (number1 > number2 && number1 > number3)
-            return "1st";
-        else if (number2 > number1 && number2 > number3)
-            return "2nd";
-        else
-            return "3rd";
-    }
-    
+    Console.Write($"input the {rankingPlace[i]} number: ");
+    myArray[i] = int.Parse(Console.ReadLine());
+    Console.WriteLine();
 }
 
+int maxIndex = 0;
+for (int i = 0; i < 3; i++)
+{
+    if (myArray[i] > myArray[maxIndex])
+    {
+        maxIndex = i;
+    }
+}
+Console.WriteLine($"The {rankingPlace[maxIndex]} Number is the greatest among three");

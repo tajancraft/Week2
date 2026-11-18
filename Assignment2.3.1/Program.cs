@@ -35,7 +35,7 @@ try
         }
     }
 }
-catch (Exception ex)
+catch (IOException e)
 {
-    Console.WriteLine($"An error occurred while reading the file: {ex.Message}");
+    Console.WriteLine($"An error occurred while reading the file: {e.Message}");
 }

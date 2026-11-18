@@ -3,8 +3,8 @@ using System;
 
 // Create the game board
 char[] gameBoard = { '1', '2', '3',
-                 '4', '5', '6',
-                 '7', '8', '9' };
+                     '4', '5', '6',
+                     '7', '8', '9' };
 
 char currentPlayer = 'X';
 int numberPlayed;
@@ -69,8 +69,8 @@ while (!isGameOver)
             currentPlayer = 'X';
     }
 }
-
 Console.WriteLine("Game Over!");
+
 // Check all possible winning combinations
 static bool CheckWinner(char[] b)
 {

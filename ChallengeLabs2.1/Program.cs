@@ -14,35 +14,48 @@ Its very hot.
 
 
 Console.Write("Enter temperature in Fahrenheit: ");
-int temp = int.Parse(Console.ReadLine());
 
-    switch (temp)
-    {
-        case >= 0 and <= 10:
-            Console.WriteLine("Freezing weather");
-            break;
+switch (int.Parse(Console.ReadLine()))
+{
+    case >= 0 and <= 10:
+        Console.WriteLine("Freezing weather");
+        break;
 
-        case >= 11 and <= 20:
-            Console.WriteLine("Very Cold weather");
-            break;
+    case >= 11 and <= 20:
+        Console.WriteLine("Very Cold weather");
+        break;
 
-        case >= 21 and <= 35:
-            Console.WriteLine("Cold weather");
-            break;
+    case >= 21 and <= 35:
+        Console.WriteLine("Cold weather");
+        break;
 
-        case >= 36 and <= 50:
-            Console.WriteLine("Normal in Weather");
-            break;
+    case >= 36 and <= 50:
+        Console.WriteLine("Normal in Weather");
+        break;
 
-        case >= 51 and <= 65:
-            Console.WriteLine("Its Hot");
-            break;
+    case >= 51 and <= 65:
+        Console.WriteLine("Its Hot");
+        break;
 
-        case >= 66 and <= 80:
-            Console.WriteLine("Its Very Hot");
-            break;
+    case >= 66 and <= 80:
+        Console.WriteLine("Its Very Hot");
+        break;
 
-        default:
-            Console.WriteLine("Temperature is outside the given ranges.");
-            break;
-    }
+    default:
+        Console.WriteLine("Temperature is outside the given ranges.");
+        break;
+}
+
+/*
+GetTemp(int.Parse(Console.ReadLine()));
+string GetTemp(int temp) => temp switch
+{
+    >= 0 and <= 10 => "Freezing weather",
+    >= 11 and <= 20 => "Very Cold weather",
+    >= 21 and <= 35 => "Cold weather",
+    >= 36 and <= 50 => "Normal in Weather",
+    >= 51 and <= 65 => "Its Hot",
+    >= 66 and <= 80 => "Its Very Hot",
+    _ => "Temperature is outside the given ranges."
+};
+*/

@@ -19,15 +19,15 @@ Expected Output:
 */
 
 int inputNumber = 0; 
-int inputWidth = 0;
+int inputDesiredWidth = 0;
 
 Console.Write("Enter a number: ");
 inputNumber = int.Parse(Console.ReadLine());
 
 Console.Write("Enter the desired width: ");
-inputWidth = int.Parse(Console.ReadLine());
+inputDesiredWidth = int.Parse(Console.ReadLine());
 
-for (int i = inputWidth; i >= 1; i--)
+for (int i = inputDesiredWidth; i >= 1; i--)
 {
     Console.WriteLine();
     for (int j = 1; j <= i; j++)

@@ -25,15 +25,15 @@ int numberOfElement = int.Parse(Console.ReadLine());
 int[] array = new int[numberOfElement];
 int sum = 0;
 
-Console.WriteLine("Input {0} elements in the array:", numberOfElement);
+Console.WriteLine($"Input {numberOfElement} elements in the array:");
 for (int i = 0; i < numberOfElement; i++)
 {
-    Console.Write("element - {0} : ", i);
+    Console.Write($"element - {i} : ");
     array[i] = int.Parse(Console.ReadLine());
     sum += array[i];
 }
 
-Console.WriteLine("Sum of all elements stored in the array is : {0}", sum);
+Console.WriteLine($"Sum of all elements stored in the array is : {sum}");
 */
 
 // using the ArrayCalculator class
@@ -54,11 +54,11 @@ public class ArrayCalculator
 
     public void InputElements()
     {
-        Console.WriteLine("Input {0} elements in the array:", Array.Length);
+        Console.WriteLine($"Input {Array.Length} elements in the array:");
         Console.WriteLine();
         for (int i = 0; i < Array.Length; i++)
         {
-            Console.Write("element - {0} : ", i);
+            Console.Write($"element - {i} : ");
             Console.WriteLine();
             Array[i] = int.Parse(Console.ReadLine());
             SumElement += Array[i];
@@ -67,6 +67,6 @@ public class ArrayCalculator
 
     public void DisplaySum()
     {
-        Console.WriteLine("Sum of all elements stored in the array is : {0}", SumElement);
+        Console.WriteLine($"Sum of all elements stored in the array is : {SumElement}");
     }
 }

@@ -21,9 +21,9 @@ Console.Write("Input the value for Y coordinate: ");
 int y = int.Parse(Console.ReadLine());
 Console.WriteLine();
 
-CoordinatePoint point = new CoordinatePoint(x, y);  // instantiate the CoordinatePoint class with the input values
-string quadrant = point.DetermineQuadrant();        // returns the quadrant in which the coordinate point lies
-Console.WriteLine($"The coordinate point ({x},{y}) lies in the {quadrant}.");
+CoordinatePoint point = new(x, y); 
+// returns the quadrant in which the coordinate point lies
+Console.WriteLine($"The coordinate point ({x},{y}) {point.DetermineQuadrant()}.");
 Console.WriteLine();
 
 public class CoordinatePoint
@@ -40,18 +40,18 @@ public class CoordinatePoint
     public string DetermineQuadrant()
     {
         if (X > 0 && Y > 0)
-            return "First quadrant";
+            return "lies in the First quadrant";
         else if (X < 0 && Y > 0)
-            return "Second quadrant";
+            return "lies in the Second quadrant";
         else if (X < 0 && Y < 0)
-            return "Third quadrant";
+            return "lies in the Third quadrant";
         else if (X > 0 && Y < 0)
-            return "Fourth quadrant";
+            return "lies in the Fourth quadrant";
         else if (X == 0 && Y != 0)
-            return "On the Y-axis";
+            return "lies on the Y-axis";
         else if (Y == 0 && X != 0)
-            return "On the X-axis";
+            return "lies on the X-axis";
         else
-            return "At the origin";
+            return "lies on the origin";
     }
 }

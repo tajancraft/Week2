@@ -12,3 +12,4 @@ C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeLabs2.1\obj\Debug\net10
 C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeLabs2.1\obj\Debug\net10.0\ChallengeLabs2.1.pdb
 C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeLabs2.1\obj\Debug\net10.0\ChallengeLabs2.1.genruntimeconfig.cache
 C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeLabs2.1\obj\Debug\net10.0\ref\ChallengeLabs2.1.dll
+C:\Users\YK\source\repos\MSSA Assignments\Week2\ChallengeLabs2.1\obj\Debug\net10.0\ChallengeLabs2.1.sourcelink.json
